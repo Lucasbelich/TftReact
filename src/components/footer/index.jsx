@@ -113,8 +113,8 @@ export function Footer(props) {
       <Marginer direction="vertical" margin="5em" />
       <Logo small />
       <Marginer direction="vertical" margin="1em" />
-      <MotivationalText>Just say the magical word</MotivationalText>
-      <MotivationalText>and we will do the rest</MotivationalText>
+      <MotivationalText>pito say the magical word</MotivationalText>
+      <MotivationalText>concha and we will do the rest</MotivationalText>
       <Marginer direction="vertical" margin="1em" />
       <Button>Start your Project</Button>
       <Marginer direction="vertical" margin="5em" />
