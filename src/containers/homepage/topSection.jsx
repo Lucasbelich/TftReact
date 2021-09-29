@@ -27,12 +27,13 @@ const BackgroundFilter = styled.div`
 `;
 
 const MotivationalText = styled.h1`
-  font-size: 34px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.4;
   color: #fff;
   margin: 0;
   text-align: center;
+  letter-spacing: 5px;
 `;
 
 const DownArrowContainer = styled.div`

@@ -12,16 +12,18 @@ const FooterContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1f1f1f;
+  background-color: #1A1A2E;
   position: relative;
 `;
 
 const MotivationalText = styled.h1`
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 1.4;
   color: #fff;
   margin: 0;
+  letter-spacing: 3px;
+  font-family: "NATS-regular-1";
 `;
 
 const AccessibilityContainer = styled.div`
@@ -102,6 +104,7 @@ const RightsReserved = styled.div`
   transform: translateX(-50%);
   color: #fff;
   font-size: 12px;
+  
 `;
 
 export function Footer(props) {
@@ -130,7 +133,7 @@ export function Footer(props) {
           </SocialIcon>
         </SocialContainer>
       </AccessibilityContainer>
-      <RightsReserved>&copy; 2020 Beema All rights reserved</RightsReserved>
+      <RightsReserved>&copy; 2021 TFT All rights reserved</RightsReserved>
     </FooterContainer>
   );
 }

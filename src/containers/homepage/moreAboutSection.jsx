@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 import styled from "styled-components";
 import { SectionTitle } from "../../components/sectionTitle";
 
-import AboutImgUrl from "../../assets/illustrations/rocket_launch_.png";
+import AboutImgUrl from "../../assets/illustrations/more_tft2.png";
 
 const MoreAboutContainer = styled(Element)`
   min-height: 500px;
@@ -33,8 +33,8 @@ const AboutText = styled.p`
 `;
 
 const AboutImg = styled.img`
-  width: 600px;
-  height: 500px;
+  width:400px;
+  height: 250px;
   margin-left: 2em;
 
   @media screen and (max-width: 480px) {
@@ -47,10 +47,10 @@ const AboutImg = styled.img`
 export function MoreAboutSection(props) {
   return (
     <MoreAboutContainer>
-      <SectionTitle>More About Beema</SectionTitle>
+      <SectionTitle>More About TFT</SectionTitle>
       <AboutContainer>
         <AboutText>
-          Beema is about designing, building and deliverying best quality
+          TFT is about designing, building and deliverying best quality
           software for your company. {<br />}
           {<br />} We make sure that you get the best software inferstracture
           and set of applications to ensure the best experience of your clients.{" "}

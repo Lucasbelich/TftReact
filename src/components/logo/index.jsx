@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { css } from "styled-components";
 
-import BeemaLogo from "../../assets/logo/logo_croped.png";
+import TftLogo from "../../assets/logo/logotftech.png";
 import { theme } from "../../theme";
 
 const LogoContainer = styled.div`
@@ -11,14 +11,14 @@ const LogoContainer = styled.div`
 `;
 
 const LogoImg = styled.img`
-  width: 8em;
-  height: 8em;
+  width: 12em;
+  height: 12em;
 
   ${({ inline }) =>
     inline &&
     css`
-      width: 24px;
-      height: 24px;
+      width: 50px;
+      height: 50px;
       margin-right: 6px;
     `};
 
@@ -43,9 +43,9 @@ export function Logo(props) {
 
   return (
     <LogoContainer inline={inline} small={small}>
-      <LogoImg src={BeemaLogo} inline={inline} small={small} />
+      <LogoImg src={TftLogo} inline={inline} small={small} />
       <LogoText inline={inline} small={small}>
-        Beema
+        Talios Factory Tech
       </LogoText>
     </LogoContainer>
   );
